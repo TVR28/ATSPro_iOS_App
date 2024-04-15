@@ -1,10 +1,10 @@
 # ATSPro - The ATS Conquering Companion
 
-## Team Members
+## Team Member
 - **Raviteja Tanikella**
 
 ## Version
-Version 1.0
+`Version 1.0`
 
 ## Project Summary
 
@@ -118,14 +118,14 @@ Third-Party Services/APIs:
 
 ### Dependencies:
 
-- Google Gemini Pro AI: Used for advanced natural language processing and resume optimization.
-- LinkedIn API (Future): Enables integration for profile optimization and networking features in the premium version.
-- iOS Operating System: Platform requirement for app functionality and compatibility.
-- Apple Developer Program: Necessary for app submission and distribution on the App Store.
-- Xcode and Swift: Tools and programming language for iOS app development.
-- Local Database (e.g., Core Data, Realm): Manages data storage and retrieval locally on the device.
-- Minimal Cloud Storage Solution (if used): For data backups and syncing across devices.
-- Firebase or Similar BaaS: Provides backend services such as user authentication and analytics.
+- `Google Gemini Pro AI`: Used for advanced natural language processing and resume optimization.
+- `LinkedIn API (Future)`: Enables integration for profile optimization and networking features in the premium version.
+- `iOS Operating System`: Platform requirement for app functionality and compatibility.
+- `Apple Developer Program`: Necessary for app submission and distribution on the App Store.
+- `Xcode and Swift`: Tools and programming language for iOS app development.
+- `Local Database` (e.g., Core Data, Realm): Manages data storage and retrieval locally on the device.
+- `Minimal Cloud Storage Solution` (if used): For data backups and syncing across devices.
+- `Firebase` or `Similar BaaS`: Provides backend services such as user authentication and analytics.
 - Others: Security and Compliance Tools,  Third-Party Libraries and Frameworks if any required.
 
 ## Challenges and Open Questions
