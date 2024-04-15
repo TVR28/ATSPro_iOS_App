@@ -1,7 +1,7 @@
 # ATSPro - The ATS Conquering Companion
 
 ## Team Members
-- Raviteja 
+- **Raviteja Tanikella**
 
 ## Version
 Version 1.0
@@ -21,18 +21,35 @@ In the contemporary job market, the use of Applicant Tracking Systems (ATS) by c
 
 ATSPro is specifically designed to address this pervasive issue. Our application aids job seekers by analyzing and refining their resumes to ensure they meet both the technical requirements of ATS and the qualitative expectations of human recruiters. By leveraging the advanced capabilities of Google Gemini Pro AI, ATSPro evaluates resumes against targeted job descriptions. This process involves:
 
-- ATS Compatibility Enhancement: The app scans the resume for keywords, phrases, and formats that are known to be ATS-friendly. It ensures that these elements are presented in a way that increases the likelihood of the resume passing through ATS filters.
+- **ATS Compatibility Enhancement**: The app scans the resume for keywords, phrases, and formats that are known to be ATS-friendly. It ensures that these elements are presented in a way that increases the likelihood of the resume passing through ATS filters.
 
-- Recruiter Appeal: Beyond just ATS optimization, ATSPro enhances the resume to appeal to human recruiters. This includes improving the overall readability, structuring the content to highlight achievements and skills effectively, and ensuring the language used matches that of the industry and role applied for.
+- **Recruiter Appeal**: Beyond just ATS optimization, ATSPro enhances the resume to appeal to human recruiters. This includes improving the overall readability, structuring the content to highlight achievements and skills effectively, and ensuring the language used matches that of the industry and role applied for.
 
-- Customized Feedback and Suggestions: ATSPro provides personalized feedback on how to improve resumes. This might include suggesting stronger action verbs, advising on the reorganization of sections for better impact, and identifying skills or accomplishments that are particularly relevant to the job description but may be underrepresented in the resume.
+- **Customized Feedback and Suggestions**: ATSPro provides personalized feedback on how to improve resumes. This might include suggesting stronger action verbs, advising on the reorganization of sections for better impact, and identifying skills or accomplishments that are particularly relevant to the job description but may be underrepresented in the resume.
 
-- Interview Preperation Guide: Provides tips on how interview questions can be asked for a particular role. Provides sample questions and suggestions on answering these different questions in the best way highlighting the candidates expertise.
+- **Interview Preperation Guide**: Provides tips on how interview questions can be asked for a particular role. Provides sample questions and suggestions on answering these different questions in the best way highlighting the candidates expertise.
 
 By addressing these key areas, ATSPro significantly increases a job applicant’s chances of their resume not only being seen by recruiters but also making a strong impression, thereby greatly improving their likelihood of being invited for interviews and ultimately securing job offers. The integration of AI-driven insights and real-time data analysis ensures that ATSPro’s users are equipped with the most effective tools to navigate the modern job landscape successfully.
 
 ### Target Audience
-Define your specific target demographic. Explain why this demographic is targeted and how you plan to reach it.
+ATSPro is primarily aimed at job seekers who are actively applying to low, mid to large-sized companies across various industries. This demographic includes both early career professionals who are looking to establish themselves in competitive job markets and experienced professionals seeking career advancement or transitions. These individuals are likely to encounter ATS as a primary screening tool in their job application process.
+
+**Reason for Targeting This Demographic**:
+
+- **High Usage of ATS**: Mid to large-sized companies are the most frequent users of Applicant Tracking Systems. Professionals applying to these companies are the most affected by ATS filters, and they stand to benefit significantly from an application that enhances their resume’s compatibility with these systems.
+
+- **Diversity of Industries**: By targeting job seekers across various industries, ATSPro addresses a broad market where ATS usage is a common barrier. This approach allows the application to have a wider impact, helping a diverse range of job seekers to overcome one of the initial hurdles in the job application process.
+
+- **Need for Differentiation**: In competitive job markets, differentiation through a well-crafted resume is crucial. ATSPro helps users optimize their resumes not just for ATS compatibility but also for making a strong impression on human recruiters, thereby addressing a critical need.
+
+
+** Strategies To Reach The Target Demographic**
+
+- **LinkedIn Partnership**: Define clear mutual benefits, connect with key LinkedIn personnel involved in business development, and propose a partnership that integrates ATSPro’s services with LinkedIn to improve user job application success.
+
+- **Online Marketing**: Utilize targeted ads on platforms like Google and LinkedIn, complemented by content marketing through blogs and infographics to engage and educate job seekers.
+
+- **YouTube Strategy**: Create engaging video content that demonstrates ATSPro's benefits, including tutorials and success stories, to attract and retain viewers' attention.
 
 ## Success Criteria
 Outline the criteria for measuring the success of the project, such as financial gain, user satisfaction, market share, or contributions to the public good. Describe how these criteria will be evaluated.
