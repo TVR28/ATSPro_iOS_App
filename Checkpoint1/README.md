@@ -74,32 +74,92 @@ ATSPro is primarily aimed at job seekers who are actively applying to low, mid t
 - User Retention Rates: Monitor ongoing usage over time to assess long-term engagement and satisfaction.
 
 ## Competitor Analysis
-Provide a brief analysis of your competitors' strengths and weaknesses as compared to your project, focusing on aspects relevant to your value proposition and primary purpose.
+ATSPro distinguishes itself in the crowded field of resume builders by offering a holistic solution that not only assists in crafting resumes but also prepares candidates for interviews, all while optimizing for ATS compatibility. Unlike other tools that focus solely on resume formatting, ATSPro leverages advanced AI-driven insights to provide personalized guidance tailored to specific job descriptions. This ensures that users not only get past the initial ATS screening but also present themselves effectively in interviews, significantly enhancing their job application success. This integration of comprehensive features and personalized assistance is what sets ATSPro apart as a complete career advancement tool.
 
 ## Monetization Model
-Propose a monetization model that aligns with your project goals and market strategy.
+The monetization strategy for ATSPro is structured around a freemium model, designed to cater to a broad user base while also generating revenue through premium offerings:
 
-## Initial Design
+**Basic Features (Free)**:
 
-### Minimum Viable Product (MVP)
-Define what constitutes the MVP for your project. Highlight the scope and any expected limitations.
+- Resume Match Overview: Users get an overview analysis showing how well their resume matches a given job description.
+- Keyword Identification: Identifies critical keywords missing from the resume that are important for ATS compatibility.
+- Bullet Point Suggestions: Provides general suggestions on how to improve bullet points to demonstrate impact and value more effectively.
+- Interview Prep Tips: Offers tips and strategies for answering different interview questions asked based on candidates profile and job description.
 
-### UI/UX Design
-Discuss key UI/UX components necessary for the MVP, considering the audience, purpose, and value proposition. The design does not need to be polished but should be functional and user-centric.
+**Premium Features (Subscription-Based)**:
 
-## Technical Architecture
+- Custom Interview Coaching: Offers personalized interview preparation based on the user's resume and target job role, including potential questions and optimized responses.
+- LinkedIn Integration and Insights: Automatically connects to the user’s LinkedIn profile to synchronize updates and provide insights on optimizing the LinkedIn profile for better visibility and recruiter engagement.
+- Real-Time Resume Editing Assistance: Offers real-time editing tools and professional feedback, ensuring resumes are polished and compelling.
 
-Detail the necessary technical components to support the MVP, including:
-- Data structures
-- Storage considerations
-- Web/cloud interactions
-Note any dependencies on third-party services or APIs.
+
+
+# Initial Design
+
+## Initial Design for ATSPro - Minimum Viable Product (MVP)
+### MVP Scope and Limitations:
+The MVP of ATSPro focuses on delivering core functionalities necessary to demonstrate the primary value proposition of enhancing resumes for ATS compatibility and appeal to recruiters. The MVP will include essential features, while more advanced capabilities will be reserved for future versions based on user feedback and technical feasibility. Known limitations at this stage might include a limited number of resume templates and restricted AI capabilities, which will be expanded in subsequent iterations.
+
+### UI/UX Design:
+
+- User Interface: The MVP will feature a clean, intuitive interface designed for ease of use. OPening the app with a plain logo and app name, asking for login (using either google or face id login for iOS). Then, it will include simple straight forward resume upload button (asking to proceed with the current existing resume or upload a new one) and area to enter the job description. Then it directs to the results screen displaying results according to the navigation menu on the bottom with options like % Match, Missing Keywords, Suggestions, Interview Prep and profile, , and visual indicators of ATS compatibility scores.
+- User Experience: Emphasis will be placed on providing a seamless user journey from resume upload to feedback generation. The MVP will ensure that users receive immediate value through quick scans and basic improvement suggestions.
+
+
+## Technical Architecture:
+
+- Data Structures: The backend will utilize databases to store user profiles and resume data. Hence, **Hash Tables** will be used to optimize the speed and accuracy of the resume analysis process.
+- Storage Considerations: yet to decide between cloud and local storgae solutions as currently there's only a need to store a single resume per user. Planning to finalize whether cloud or local storage with further thourough consideration.
+- Web/Cloud Interactions: Currently planning to runt he application locally instead of a cloud-based interaction, but having cloud architecture benefits in scaling the app in long-run. So yet to decide using the cloud architecture.  
+Third-Party Services/APIs:
+- Google Gemini Pro AI (For Now): Integration with Google Gemini Pro for advanced natural language processing and AI-driven analysis.
+- LinkedIn API (Future): For premium users, integration with LinkedIn to fetch user data and provide insights directly on the platform.
+- Measurement of Success (Future): Analytics tools will be integrated to track usage patterns, success rates of resume submissions, and user engagement metrics to continually assess and iterate on the product’s effectiveness.
+
+### Dependencies:
+
+- Google Gemini Pro AI: Used for advanced natural language processing and resume optimization.
+- LinkedIn API (Future): Enables integration for profile optimization and networking features in the premium version.
+- iOS Operating System: Platform requirement for app functionality and compatibility.
+- Apple Developer Program: Necessary for app submission and distribution on the App Store.
+- Xcode and Swift: Tools and programming language for iOS app development.
+- Local Database (e.g., Core Data, Realm): Manages data storage and retrieval locally on the device.
+- Minimal Cloud Storage Solution (if used): For data backups and syncing across devices.
+- Firebase or Similar BaaS: Provides backend services such as user authentication and analytics.
+- Others: Security and Compliance Tools,  Third-Party Libraries and Frameworks if any required.
 
 ## Challenges and Open Questions
 
 ### Technical Challenges
-Identify potential technical challenges, such as hardware limitations or access to necessary data/services, and propose preliminary solutions.
 
-### Open Questions
-List any areas of uncertainty that require feedback from peers, users, or further research to refine.
+1. Data Management:
+Challenge: Handling large volumes of sensitive resume data securely and efficiently.
+Solution: Implement data encryption both at rest and in transit, use scalable cloud storage solutions if required with data sharding and load balancing to manage large no.of resumes effectively.
+
+2. Privacy Compliance:
+Challenge: Ensuring compliance with data privacy laws, given the global nature of job seeking.
+Solution: Integrate comprehensive privacy-by-design principles and regularly update privacy policies to ensure transparency in data handling.
+
+3. Scalability:
+Challenge: Scaling the app to handle an increasing number of users without degradation in performance.
+Solution: If cloud architecture, utilize elastic cloud services to dynamically adjust resources based on demand. Implement microservices architecture to isolate and scale parts of the app independently.
+
+4. Real-Time Updates:
+Challenge: Integrating real-time updates and notifications without performance lags.
+Solution: Use efficient messaging and queuing systems such as Kafka to manage real-time data flow. Optimize backend operations with caching strategies and asynchronous processing.
+
+5. Integration with Third-Party Services:
+Challenge: Seamless integration with APIs like Google Gemini Pro AI and LinkedIn API(in future) while maintaining performance and reliability.
+Solution: Implement robust API management platforms to handle rate limits, ensure efficient data exchange, and fallback mechanisms to manage API downtime.
+
+### Open Questions 
+Questions that I'm unsure about the solution yet. Need to research and seek feedback.
+
+1. Should the app require user authentication for accessing resume analysis tools? If so, what authentication meth
+2. What are the optimal storage options for scalability and security?
+3. How can we efficiently handle API rate limits and error responses in real-time scenarios?
+4. How can we optimize the cost of using cloud services and APIs without compromising the functionality and user experience of the app?
+5. What specific measures should be implemented to protect sensitive user data, especially when transmitting to and from external APIs?
+6. How and should the app contain previous history of most recent roles searched? If so how many previous and how to store?
+7. Should the app store the suggestions and responses provided for a particular job role? 
 
