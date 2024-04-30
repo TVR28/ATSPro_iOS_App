@@ -1,1 +1,1 @@
-# CheckPoint2 Simple Prototype
+# CheckPoint2 - Simple Prototype
