@@ -23,4 +23,4 @@
 ## Remaining Work To Be Completed For the Next Phase.
 - **Gemini LLM Integration** - Finish the Gemini LLM Integration into the App.
 - **Download Functionality** - Incorporate the functionality to download the conversation and responses in PDF format.
-- **User Profile** - Finish implementation of user profile settings in Home screen (Profile, theme settings and about)
+- **User Profile Settings** - Finish implementation of user profile settings in Home screen (Profile, theme settings and about)
