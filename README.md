@@ -13,8 +13,7 @@
 ## Version
 `Version 1.0`
 
-![image](https://github.com/TVR28/ATSPro_Mobile_App/assets/91713140/761b0a79-e83f-415e-a346-53c0add2d06f)
-
+![image](https://github.com/TVR28/ATSPro_Mobile_App/assets/91713140/5c6f18eb-870c-4cd2-a007-cf88df6dab1b)
 
 ## Project Summary
 
