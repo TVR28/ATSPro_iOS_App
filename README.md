@@ -13,7 +13,8 @@
 ## Version
 `Version 1.0`
 
-![image](https://github.com/TVR28/ATSPro_Mobile_App/assets/91713140/a2c4cc3b-9edd-4e16-8232-c83a0698f37e)
+![Simulator Screenshot - iPhone 15 Pro - 2024-05-31 at 22 08 25](https://github.com/TVR28/ATSPro_Mobile_App/assets/91713140/5a1cd51b-e465-47d0-b297-6bc3287486e0)
+
 
 
 ## Project Summary
