@@ -13,6 +13,9 @@
 ## Version
 `Version 1.0`
 
+![image](https://github.com/TVR28/ATSPro_Mobile_App/assets/91713140/a2c4cc3b-9edd-4e16-8232-c83a0698f37e)
+
+
 ## Project Summary
 
 ATSPro is a game-changing application designed to bridge the critical gap between resume building and landing your dream job. By leveraging Google Gemini Pro AI, ATSPro enhances your resume's compatibility with Applicant Tracking Systems (ATS), increasing your interview chances significantly. It not only helps in building ATS-friendly resumes but also provides tailored interview prep and deep insights into job applications.
