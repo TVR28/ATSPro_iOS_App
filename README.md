@@ -2,8 +2,8 @@
 
 <div align="left">
   
-  <img src="https://img.shields.io/badge/Swift-5.10-Red" />
-    <img src="https://img.shields.io/badge/Xcode-15-Blue" />
+  <img src="https://img.shields.io/badge/Swift-5.10-red" />
+    <img src="https://img.shields.io/badge/Xcode-15-blueviolet" />
     <img src="https://img.shields.io/badge/Google-Gemini-Pro-Violet" />
   </div>
 
