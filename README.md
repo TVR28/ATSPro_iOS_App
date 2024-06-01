@@ -3,8 +3,8 @@
 <div align="left">
   
   <img src="https://img.shields.io/badge/Swift-5.10-red" />
-    <img src="https://img.shields.io/badge/Xcode-15-blueviolet" />
-    <img src="https://img.shields.io/badge/Google-Gemini-Pro-Violet" />
+    <img src="https://img.shields.io/badge/Xcode-15-blue" />
+    <img src="https://img.shields.io/badge/Google-Gemini-Pro-blueviolet" />
   </div>
 
 ## Team Member
