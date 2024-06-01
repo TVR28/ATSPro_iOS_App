@@ -4,7 +4,7 @@
   
   <img src="https://img.shields.io/badge/Swift-5.10-red" />
     <img src="https://img.shields.io/badge/Xcode-15-blue" />
-    <img src="![Google Generative AI](https://img.shields.io/badge/Google%20Generative%20AI-blueviolet?logo=google)" />
+    <img src="https://img.shields.io/badge/Google%20Generative%20AI-blueviolet?logo=google" alt="Google Generative AI" />
   </div>
 
 ## Team Member
