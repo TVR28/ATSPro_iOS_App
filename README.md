@@ -1,5 +1,12 @@
 # ATSPro - The ATS Conquering Companion
 
+<div align="center">
+  
+  <img src="https://img.shields.io/badge/Python-3.7-yellowgreen" />
+    <img src="https://img.shields.io/badge/Rasa-2.8.1-blueviolet" />
+    <img src="https://img.shields.io/badge/Release-1.0.0-blue" />
+  </div>
+
 ## Team Member
 - **Raviteja Tanikella**
 
